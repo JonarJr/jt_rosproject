@@ -1,0 +1,14 @@
+#Action definition file
+#goal sent by client
+float32 movement
+---
+#result, sent upon completion
+float32 movement_progress
+#updates along the way
+uint32 updates_sent
+---
+#feedback, sent periodically by server
+#amount of movement left from start
+float32 movement_progress
+#remaining movement until done
+float32 movement_remaining

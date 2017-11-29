@@ -1,0 +1,8 @@
+<launch>
+
+<node name="console_node" pkg="ros_programming_assignment" type="console_node.py" output="screen" required="true"/>
+<node name="main_node" pkg="ros_programming_assignment" type="main_node.py" output="screen" required="true"/>
+<node name="fake_nlp" pkg="ros_programming_assignment" type="fake_nlp.py" required="true"/>
+<node name="twist_action_server" pkg="ros_programming_assignment" type="twist_action_server.py" required="true"/>
+
+</launch>
